@@ -5,7 +5,7 @@
 }
 
 #nav>h3 {
-  margin: 2em;
+  margin: 3em 0;
   font-family: 'Tenor Sans', sans-serif;
   font-weight: lighter;
 }
@@ -18,7 +18,7 @@
 
 #bio>h3 {
   text-align: center;
-  margin: 3em;
+  margin: 2em;
   font-family: 'IBM Plex Sans', sans-serif;
   line-height: 2em;
   font-size: 30px;
