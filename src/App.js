@@ -17,8 +17,37 @@ function App() {
       <div>
         <img src={logo} alt='img' />
       </div>
-      <div>
-        Resume
+      <div id='container'>
+        <div id='resume'>Resume</div>
+        <div id='resume-content'>
+          SOFTWARE ENGINEER
+          <br />
+          PELOTON | APRIL 2019 - CURRENT
+          <br />
+          * Worked with mobile developers and TPM's to create and maintain test automation for digital, web and physical products  <br />
+          * Worked alongside UI and Core development teams to understand test automation gaps and implement coverage  <br />
+          * Worked with embedded systems team to test make testing an integral part of the software development process <br />
+          * Created and implemented test suites for Android, iOS, Tread and Bike teams for release products <br />
+          <br />
+
+          CONTENT COORDINATOR
+  <br />
+          2U, INC. | SEPT 2018 - APRIL 2019
+  <br />
+          * Beta tested on new tools and services to be utilized by the content department<br />
+          * Troubleshooted time-sensitive issues as they arise<br />
+          * Performed QC on course builds to assure content renders properly in LMS/OC environment across different browsers <br />
+          * Tracked development of course materials through deployment and production<br />
+          <br />
+
+          FULL STACK ENGINEER
+  <br />
+          PURSUIT | SEPT 2017 - JUNE 2018
+          <br />
+          * Enrolled in an intensive 9 month, Google-funded software engineering fellowship with a 9% acceptance rate
+          Gained hands-on experience in ReactJS, NodeJS, Git/GitHub, data structures, Algorithms, APIs, and tech principles and culture via both team/individual projects, code reviews, and pair programming
+        </div>
+
       </div>
 
       <footer>
@@ -27,7 +56,7 @@ function App() {
       <div>
         email@example.com
       </div>
-    </div>
+    </div >
   );
 }
 
