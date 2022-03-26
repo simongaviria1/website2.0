@@ -44,15 +44,15 @@
 }
 
 #work-container {
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin: 0;
 }
 
 .resume-content-container {
   text-align: left;
   background-color: grey;
-  margin: 1%;
+  margin: 1% 0;
 }
 
 /* Relevant experiences */
