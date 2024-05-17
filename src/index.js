@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Fullpage from "./App";
+import FullpageWrapper from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Fullpage />
+    <FullpageWrapper />
   </React.StrictMode>,
   document.getElementById("root")
 );

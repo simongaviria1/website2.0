@@ -1,24 +1,24 @@
 /* Shared classes */
 .section {
-  text-align: left;
   background-color: orange;
   color: white;
   font-family: monospace;
+  text-align: left;
 }
 
 .text-container {
-  margin: auto;
-  width: 85%;
   background-color: black;
+  margin: auto;
   padding: 5%;
+  width: 85%;
 }
 
 /* Main */
 #main-button {
-  font-family: monospace;
   background-color: black;
-  color: white;
   border: none;
+  color: white;
+  font-family: monospace;
 }
 
 /* Bio */
@@ -39,7 +39,7 @@
   text-align: left;
 }
 
-.experience{ 
+.experience {
   padding: 2em;
 }
 
@@ -50,12 +50,79 @@
 }
 
 .resume-content-container {
-  text-align: left;
   background-color: grey;
   margin: 1% 0;
+  text-align: left;
 }
 
 /* Relevant experiences */
 #relevant-experience {
   background-color: brown;
+}
+
+/*Nav*/
+
+/* #navbar {
+  -ms-transform: translateY(-10%);
+  -webkit-transform: translate3d(0, 0%, 0);
+  background-color: aquamarine;
+  opacity: 1;
+  position: fixed;
+  top: 0%;
+  transform: translateY(-10%);
+  width: 100%;
+  z-index: 100;
+  flex: auto;
+} */
+
+#navbar {
+  background-color: aqua;
+  font-size: 0.9rem;
+  gap: 1rem;
+  list-style: none;
+  opacity: 1;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.active {
+  font-weight: bold;
+}
+
+#navbar-items {
+  display: flex;
+  justify-content: right; /* Change this line */
+  font-size: 0.9rem;
+  gap: 1rem;
+  list-style: none;
+  padding: 1em 5em;
+  width: auto;
+}
+
+li {
+  cursor: pointer;
+  position: relative;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+li:hover::after {
+  width: 100%;
+}
+
+li::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #333;
+  transition: width 0.3s;
 }
